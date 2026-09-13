@@ -66,7 +66,7 @@ PG_CPPFLAGS = -fPIC -I/usr/local/include -I$(BOOST) -I$(CORE)/common/include \
   -I$(CORE)/tuple/include \
   -I$(CORE)/req/include \
   -I$(CORE)/quantiles/include
-PG_CXXFLAGS = -std=c++11
+PG_CXXFLAGS = -std=c++17
 SHLIB_LINK = -lstdc++ -L/usr/local/lib
 
 PG_CONFIG = pg_config
